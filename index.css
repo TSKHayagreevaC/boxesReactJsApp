@@ -1,0 +1,75 @@
+/* Write your code here. */
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Bree Serif";
+  padding: 20px;
+}
+
+.heading-style {
+  color: #0f172a;
+  font-size: 48px;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.small-box-container {
+  background-color: #fbbf24;
+  height: 100px;
+  width: 100px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.medium-box-container {
+  background-color: #38bdf8;
+  height: 175px;
+  width: 175px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.large-box-container {
+  background-color: #ec4899;
+  height: 300px;
+  width: 300px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  .small-box-container {
+    margin: 0px;
+  }
+
+  .medium-box-container {
+    margin: 0px;
+  }
+}
